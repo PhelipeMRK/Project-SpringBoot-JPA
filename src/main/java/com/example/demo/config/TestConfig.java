@@ -14,7 +14,7 @@ import com.example.demo.repositories.UserRepository;
 @Profile("test")
 public class TestConfig implements CommandLineRunner {
 	
-	@Autowired
+	@Autowired //Injeção de Dependencia transparente
 	private UserRepository userRepository;
 	
 	@Override
