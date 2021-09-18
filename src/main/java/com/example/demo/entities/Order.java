@@ -21,7 +21,7 @@ public class Order implements Serializable {
 	private static final long serialVersionUID = 1L;
 	
 	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)//Mapeamento objeto-relacional do JPA
 	private Long id;
 	
 	//força a carregar no formato ISO 8601
